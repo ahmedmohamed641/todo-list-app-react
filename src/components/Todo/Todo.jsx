@@ -32,7 +32,6 @@ function Todo({ todos, toggleTodo, deleteTodo }) {
   );
 }
 
-// PropTypes definition
 Todo.propTypes = {
   todos: PropTypes.arrayOf(PropTypes.object).isRequired,
   toggleTodo: PropTypes.func.isRequired,

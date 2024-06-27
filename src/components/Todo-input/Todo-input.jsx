@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 export function TodoInput({ addTodo }) {
-  // Destructure addTodo directly
   const [inputItem, setInputItem] = useState("");
 
   function handleSubmit(e) {
