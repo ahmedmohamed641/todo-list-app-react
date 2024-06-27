@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: 1px solid #273444;
+  background: transparent;
+  outline: none;
+  border-radius: 6px;
+  font-weight: lighter;
+  height: 2rem;
+}
+
+input::placeholder {
+  color: #273444;
+}
+
+body {
+  background-image: url(/src/assets/Background.png);
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  background-color: #18212d;
+}
