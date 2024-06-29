@@ -29,6 +29,7 @@ function App() {
     setTodos((currentTodos) => currentTodos.filter((todo) => todo.id !== id));
   }
 
+  // remove {" "} that's a typo 
   return (
     <>
       <h1 className="text-4xl font-bold text-pink text mt-20">Todo App</h1>
