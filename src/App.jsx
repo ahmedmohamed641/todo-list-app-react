@@ -32,12 +32,8 @@ function App() {
   return (
     <>
       <h1 className="text-4xl font-bold text-pink text mt-20">Todo App</h1>
-      <TodoInput addTodo={addTodo} /> {/* Pass addTodo as prop */}
-      <Todo
-        todos={todos}
-        toggleTodo={toggleTodo}
-        deleteTodo={deleteTodo}
-      />{" "}
+      <TodoInput addTodo={addTodo} />
+      <Todo todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
     </>
   );
 }
